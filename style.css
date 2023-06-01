@@ -1,0 +1,53 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #E74033;
+  padding: 0;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+div {
+  padding: 30px 60px;
+  margin: 0;
+}
+
+.benson {
+  background-color: #193549;
+  color: #FFFFFF;
+  padding: 90px 15px;
+}
+
+.benson:hover > .hedges {
+  color: #13143B;
+  background: #CCCCCC;
+}
+
+/* Example #2  */
+.example-2 {
+  background-color: #FFFFFF;
+  padding: 90px 15px;
+}
+
+.codecanyon:hover + .themeforest {
+  color: #FFFFFF;
+  background: #3333F2;
+}
+
+/* Example #3  */
+.example-3 {
+  background-color: #def5ff;
+  padding: 90px 15px;
+}
+
+.pond:hover p {
+  color: red;
+  font-weight: bold;
+}/*# sourceMappingURL=style.css.map */
